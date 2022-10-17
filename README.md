@@ -18,18 +18,18 @@
 **User story 2:**
 
 *As two players of Connect 4, if I click reset, the board is cleared, such that the game can start again*
-- [ ] Winner message should be cleared
-- [ ] Red goes first after reset
-- [ ] After reset, games should continue to meet acceptance criteria of user story 1
+- [✅] Winner message should be cleared
+- [✅] Red goes first after reset
+- [✅] After reset, games should continue to meet acceptance criteria of user story 1
 
 **User story 3:**
 
 *As two players of Connect 4, if either is able to place four discs of the same colour in a line, they are declared the winner*
-- [ ] A winner can be declared if a line occurs along any part of a row
-- [ ] A winner can be declared if a line occurs along any part of a column
-- [ ] A winner can be declared if a line occurs diagonally
-- [ ] If all positions are occupied and no lines are achieved, then nobody is declared the winner
-- [ ] If a winner is declared, then no further discs can be placed until the board is reset as per user story 2
+- [✅] A winner can be declared if a line occurs along any part of a row
+- [✅] A winner can be declared if a line occurs along any part of a column
+- [✅] A winner can be declared if a line occurs diagonally
+- [✅] If all positions are occupied and no lines are achieved, then nobody is declared the winner
+- [✅] If a winner is declared, then no further discs can be placed until the board is reset as per user story 2
  
 **User story 4:**
 
