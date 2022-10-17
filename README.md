@@ -9,11 +9,11 @@
 **User story 1:**
 
 *As two players of Connect 4, we are able to place either a yellow disc or a red disc on the lowest row available on a 7x6 grid by clicking on the respective column of the grid*
-- [ ] Clicking a column places either a red or yellow disc in the lowest unoccupied position in the clicked column
-- [ ] Colour of disc will alternate each turn (click)
-- [ ] No more than 42 turns can be played
-- [ ] Red goes first
-- [ ] Once a column is full (6 discs), no more discs can be placed
+- [✅] Clicking a column places either a red or yellow disc in the lowest unoccupied position in the clicked column
+- [✅] Colour of disc will alternate each turn (click)
+- [✅] No more than 42 turns can be played
+- [✅] Red goes first
+- [✅] Once a column is full (6 discs), no more discs can be placed
 
 **User story 2:**
 
