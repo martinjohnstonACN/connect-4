@@ -96,7 +96,7 @@
 
 **User story 14:**
 - [❓] Unit tests for take turn functionality
-- [🎯] Unit tests for check winner functionality 
+- [✅] Unit tests for check winner functionality 
 - [❓] Pure functions have unit tests
 - [🎯] Impure functions have unit tests
 
