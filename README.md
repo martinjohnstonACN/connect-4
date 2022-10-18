@@ -78,11 +78,11 @@
 - [ ] No warning/errors highlighted by a linter (e.g. eslint)
 
 **User story 10:**
-- [ ] Consistent use of a paradigm (functional, OOP, MVC, etc.)
+- [✅] Consistent use of a paradigm (functional, OOP, MVC, etc.)
 - [ ] Use pure functions as much as possible (entire state is passed in and returned without the original state being updated)
 
 **User story 11:**
-- [ ] Use an optimal algorithm for detect winner that doesn't search the whole board
+- [✅] Use an optimal algorithm for detect winner that doesn't search the whole board
 
 **User story 12 (stretch):**
 - [ ] Documentation exists on how to run the system
