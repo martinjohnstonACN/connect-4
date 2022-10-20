@@ -43,12 +43,12 @@
 
 **User story 5:**
 - [✅] Let the users enter their names to personalize the win message
-- [🎯] Scores are persisted between browser refreshes
+- [✅] Scores are persisted between browser refreshes
 
 ## UI/UX requirements
 
 **User story 6:**
-- [🎯] Make it look like a real physical board
+- [✅] Make it look like a real physical board
 - [🎯] Highlight the winning line on the board when a winner is declared
 - [❌] Animate a counter falling down a column
 - [🎯] Add sound effects
@@ -61,7 +61,7 @@
 ### Accessibility
 
 **User story 8 (stretch):**
-- [🎯] Use of semantic HTML elements
+- [✅] Use of semantic HTML elements
 - [🎯] Testing of accessibility using lighthouse or other tool (WCAG score)
 
 # Maintainability
@@ -69,17 +69,19 @@
 ## Clean code
 
 **User story 9:**
-- [🎯] Code is well formatted
-- [🎯] Code is separated into classes/functions in a logical way
-- [🎯] Code is separated into files in a logical way (where necessary)
-- [🎯] Functions and variables are clearly named
-- [🎯] Comments are put to good use where required
-- [🎯] Code is generally easy to follow, solving problems in a direct way
-- [🎯] No warning/errors highlighted by a linter (e.g. eslint)
+- [✅] Code is well formatted
+- [✅] Code is separated into classes/functions in a logical way
+- [✅] Code is separated into files in a logical way (where necessary)
+- [✅] Functions and variables are clearly named
+- [✅] Comments are put to good use where required
+- [✅] Code is generally easy to follow, solving problems in a direct way
+- [✅] No warning/errors highlighted by a linter (e.g. eslint)
 
 **User story 10:**
 - [✅] Consistent use of a paradigm (functional, OOP, MVC, etc.)
-- [❓] Use pure functions as much as possible (entire state is passed in and returned without the original state being updated)
+- [❓/✅?] Use pure functions as much as possible (entire state is passed in and returned without the original state being updated)
+^ this isn't even a user story... 
+Summary: A user story is an informal, general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer
 
 **User story 11:**
 - [✅] Use an optimal algorithm for detect winner that doesn't search the whole board
