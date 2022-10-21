@@ -117,8 +117,8 @@ Summary: A user story is an informal, general explanation of a software feature 
 **User story 17:**
 - [✅] Split into client & server
 - [⚫⚫⚪⚪⚪⚪⚪⚪⚪⚪] Store game scores on the server
-- [⚫⚫⚪⚪⚪⚪⚪⚪⚪⚪] API design follows RESTful standards
-- [⚫⚪⚪⚪⚪⚪⚪⚪⚪⚪] API endpoint exists to get high scores
+- [⚫⚫⚫⚫⚪⚪⚪⚪⚪⚪] API design follows RESTful standards
+- [⚫⚫⚫⚫⚫⚫⚫⚪⚪⚪] API endpoint exists to get high scores
 - [⚫⚪⚪⚪⚪⚪⚪⚪⚪⚪] API endpoint exists to post score for a player
 - [🎯] Error handling exists for server calls
   
