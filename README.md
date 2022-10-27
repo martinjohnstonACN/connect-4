@@ -125,8 +125,8 @@ Summary: A user story is an informal, general explanation of a software feature 
 ## Server side game logic
 
 **User story 18 (stretch):**
-- [🎯] Move take turn and check winner logic to server side
-- [🎯] Client side is responsible only for view logic / DOM manipulation
+- [✅] Move take turn and check winner logic to server side
+- [✅] Client side is responsible only for view logic / DOM manipulation
 
 # Advanced game functionality 
 
