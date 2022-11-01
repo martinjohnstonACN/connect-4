@@ -34,24 +34,24 @@
 **User story 4:**
 
 *As a player of Connect 4, I can track my high score for the current game session (for this story a session won't persist upon a browser refresh)*
-- [✅] High scores shown after every game, no matter who wins
-- [✅] Score is calculated by subtracting the number of turns made before a winner is declared from 42
-- [✅] Scoreboard tracking player victories
-- [✅] High scores persist across multiple sessions of the game
+- [❌] High scores shown after every game, no matter who wins
+- [❌] Score is calculated by subtracting the number of turns made before a winner is declared from 42
+- [❌] Scoreboard tracking player victories
+- [❌] High scores persist across multiple sessions of the game
 
 ### Additional functional requirements
 
 **User story 5:**
-- [✅] Let the users enter their names to personalize the win message
-- [✅] Scores are persisted between browser refreshes
+- [❌] Let the users enter their names to personalize the win message
+- [❌] Scores are persisted between browser refreshes
 
 ## UI/UX requirements
 
 **User story 6:**
-- [✅] Make it look like a real physical board
-- [🎯] Highlight the winning line on the board when a winner is declared
+- [❌] Make it look like a real physical board
+- [❌] Highlight the winning line on the board when a winner is declared
 - [❌] Animate a counter falling down a column
-- [🎯] Add sound effects
+- [❌] Add sound effects
 
 ### Responsive design
 
@@ -61,52 +61,52 @@
 ### Accessibility
 
 **User story 8 (stretch):**
-- [✅] Use of semantic HTML elements
-- [🎯] Testing of accessibility using lighthouse or other tool (WCAG score)
+- [❌] Use of semantic HTML elements
+- [❌] Testing of accessibility using lighthouse or other tool (WCAG score)
 
 # Maintainability
 
 ## Clean code
 
 **User story 9:**
-- [✅] Code is well formatted
-- [✅] Code is separated into classes/functions in a logical way
-- [✅] Code is separated into files in a logical way (where necessary)
-- [✅] Functions and variables are clearly named
-- [✅] Comments are put to good use where required
-- [✅] Code is generally easy to follow, solving problems in a direct way
-- [✅] No warning/errors highlighted by a linter (e.g. eslint)
+- [❌] Code is well formatted
+- [❌] Code is separated into classes/functions in a logical way
+- [❌] Code is separated into files in a logical way (where necessary)
+- [❌] Functions and variables are clearly named
+- [❌] Comments are put to good use where required
+- [❌] Code is generally easy to follow, solving problems in a direct way
+- [❌] No warning/errors highlighted by a linter (e.g. eslint)
 
 **User story 10:**
-- [✅] Consistent use of a paradigm (functional, OOP, MVC, etc.)
-- [❓/✅?] Use pure functions as much as possible (entire state is passed in and returned without the original state being updated)
+- [❌] Consistent use of a paradigm (functional, OOP, MVC, etc.)
+- [❌] Use pure functions as much as possible (entire state is passed in and returned without the original state being updated)
 ^ this isn't even a user story... 
 Summary: A user story is an informal, general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer
 
 **User story 11:**
-- [✅] Use an optimal algorithm for detect winner that doesn't search the whole board
+- [❌] Use an optimal algorithm for detect winner that doesn't search the whole board
 
 **User story 12 (stretch):**
-- [❓] Documentation exists on how to run the system
-- [❓] Swagger API Docs exist
+- [❌] Documentation exists on how to run the system
+- [❌] Swagger API Docs exist
 
 **User story 13:**
-- [❓] Logging is in place using a logging library
-- [❓] Log statements have appropriate severity levels
+- [❌] Logging is in place using a logging library
+- [❌] Log statements have appropriate severity levels
 
 ## Unit testing 
 
 **User story 14:**
-- [❓] Unit tests for take turn functionality
-- [✅] Unit tests for check winner functionality 
-- [❓] Pure functions have unit tests
-- [🎯] Impure functions have unit tests
+- [❌] Unit tests for take turn functionality
+- [❌] Unit tests for check winner functionality 
+- [❌] Pure functions have unit tests
+- [❌] Impure functions have unit tests
 
 **User story 15 (stretch):**
 - [❌] Produce unit tests for rendering of UI
 
 **User story 16 (stretch):**
-- [❓] Produce tests for the API server
+- [❌] Produce tests for the API server
 
 # Backend
 
@@ -115,29 +115,29 @@ Summary: A user story is an informal, general explanation of a software feature 
 *After each win, the running scores of each player are posted to score service and top ten scores should be displayed*
 
 **User story 17:**
-- [✅] Split into client & server
-- [✅] Store game scores on the server
-- [✅] API design follows RESTful standards
-- [✅] API endpoint exists to get high scores
-- [✅] API endpoint exists to post score for a player
-- [🎯] Error handling exists for server calls
+- [❌] Split into client & server
+- [❌] Store game scores on the server
+- [❌] API design follows RESTful standards
+- [❌] API endpoint exists to get high scores
+- [❌] API endpoint exists to post score for a player
+- [❌] Error handling exists for server calls
   
 ## Server side game logic
 
 **User story 18 (stretch):**
-- [✅] Move take turn and check winner logic to server side
-- [✅] Client side is responsible only for view logic / DOM manipulation
+- [❌] Move take turn and check winner logic to server side
+- [❌] Client side is responsible only for view logic / DOM manipulation
 
 # Advanced game functionality 
 
 **User story 19 (stretch):**
-- [❓/❌] Multiplayer capability
+- [❌] Multiplayer capability
 
 **User story 20 (stretch):**
-- [🎯] AI player ---MAYBE USE MINMAX ALG
+- [❌] AI player ---MAYBE USE MINMAX ALG
 
 **User story 21 (stretch):**
 - [❌] Let the user choose the size of board they want to play on
 
 **User story 22 (stretch):**
-- [❓] Extra ideas at developer's discretion 
+- [❌] Extra ideas at developer's discretion 
