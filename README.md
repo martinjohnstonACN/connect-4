@@ -36,7 +36,7 @@
 *As a player of Connect 4, I can track my high score for the current game session (for this story a session won't persist upon a browser refresh)*
 - [❌] High scores shown after every game, no matter who wins
 - [✅] Score is calculated by subtracting the number of turns made before a winner is declared from 42
-- [❌] Scoreboard tracking player victories
+- [✅] Scoreboard tracking player victories
 - [❌] High scores persist across multiple sessions of the game
 
 ### Additional functional requirements
