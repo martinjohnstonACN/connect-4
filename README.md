@@ -34,7 +34,7 @@
 **User story 4:**
 
 *As a player of Connect 4, I can track my high score for the current game session (for this story a session won't persist upon a browser refresh)*
-- [❌] High scores shown after every game, no matter who wins
+- [✅] High scores shown after every game, no matter who wins
 - [✅] Score is calculated by subtracting the number of turns made before a winner is declared from 42
 - [✅] Scoreboard tracking player victories
 - [❌] High scores persist across multiple sessions of the game
@@ -42,7 +42,7 @@
 ### Additional functional requirements
 
 **User story 5:**
-- [❌] Let the users enter their names to personalize the win message
+- [✅] Let the users enter their names to personalize the win message
 - [❌] Scores are persisted between browser refreshes
 
 ## UI/UX requirements
@@ -137,7 +137,7 @@ Summary: A user story is an informal, general explanation of a software feature 
 - [❌] AI player ---MAYBE USE MINMAX ALG
 
 **User story 21 (stretch):**
-- [❌] Let the user choose the size of board they want to play on
+- [✅] Let the user choose the size of board they want to play on
 
 **User story 22 (stretch):**
 - [❌] Extra ideas at developer's discretion 
